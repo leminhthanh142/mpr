@@ -58,22 +58,6 @@ asdasd
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);a
-
-
-                asd
-
-
-        TextView title = findViewById(R.id.change_title);
-
-
-        asd
-        ScrollView hiragana = findViewById(R.id.hiragana);
-        ScrollView katakana = findViewById(R.id.katakana);
-
-        Button hiraganaChangeViewBtn = findViewById(R.id.hiraganaBtn);
-        Button katakanaChangeViewBtn = findViewById(R.id.katakanaBtn);
 
         hiraganaChangeViewBtn.setOnClickListener(view -> {
             hiragana.animate().alpha(1).setDuration(1000);
