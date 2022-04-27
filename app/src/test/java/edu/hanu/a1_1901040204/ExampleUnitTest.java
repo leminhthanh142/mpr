@@ -1,4 +1,4 @@
-package com.example.thanh;
+package edu.hanu.a1_1901040204;
 
 import org.junit.Test;
 

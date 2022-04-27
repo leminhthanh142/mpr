@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Thanh">
         <activity
-            android:name=".MainActivity"
+            android:name="edu.hanu.a1_1901040204.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

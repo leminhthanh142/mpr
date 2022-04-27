@@ -1,4 +1,4 @@
-package com.example.thanh;
+package edu.hanu.a1_1901040204;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
+
+import com.example.thanh.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,15 +50,25 @@ public class MainActivity extends AppCompatActivity {
     private final ImageButton[] hiraganaBtn = new ImageButton[hiraganaBtnIds.length];
     private final ImageButton[] katakanaBtn = new ImageButton[katakanaBtnIds.length];
     private final MediaPlayer[] mediaPlayers = new MediaPlayer[audio.length];
+asdasd
+
+    asdasd
+
 
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);a
+
+
+                asd
+
 
         TextView title = findViewById(R.id.change_title);
 
+
+        asd
         ScrollView hiragana = findViewById(R.id.hiragana);
         ScrollView katakana = findViewById(R.id.katakana);
 
